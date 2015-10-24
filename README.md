@@ -1,11 +1,10 @@
-talks
-=====
+From Atom to Electron
+=====================
 
 ---
 
-A repository made of talks and babbling things I did and told to people.
+This presentation introduces [Electron][1] as a neat solution for developing
+desktop-class applications using web-based technologies, such as HTML and
+JavaScript, as for its core engine, Node.js.
 
-This branch contains the base files from [reveal.js][1] open-source framework
-for creating stunning HTML5-based presentations.
-
-[1]: https://github.com/hakimel/reveal.js
+[1]: http://electron.atom.io

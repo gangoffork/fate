@@ -270,6 +270,8 @@ body {
 	.reveal section img.plain {
 		border: 0;
 		box-shadow: none;
+		background-color: transparent;
+		vertical-align: middle;
 	}
 
 	.reveal a img {
@@ -348,5 +350,3 @@ body {
 .reveal .slide-number {
 	color: $linkColor;
 }
-
-
