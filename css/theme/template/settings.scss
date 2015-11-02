@@ -41,3 +41,15 @@ $selectionColor: #fff;
 @mixin bodyBackground() {
 	background: $backgroundColor;
 }
+
+// custom style definition
+
+.reveal img {
+	&.elec {
+		position: absolute;
+		right: 28%;
+	}
+	&.atom {
+		margin-right: 158px;
+	}
+}
