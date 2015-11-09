@@ -3,6 +3,9 @@
 log/*.log
 tmp/**
 node_modules/
+bower_components/
 .sass-cache
+css/reveal.css
 css/reveal.min.css
+css/theme/*.css
 js/reveal.min.js
