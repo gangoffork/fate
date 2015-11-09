@@ -53,14 +53,12 @@
 					<a href="https://mstred.github.io">@mstred</a>
 				</p>
 			</section>
-
-			<!-- Example of nested vertical slides -->
 			<section>
 				<section>
 					<h1>2008</h1>
 				</section>
 				<section>
-					<img src="https://avatars0.githubusercontent.com/u/2" alt="Chris Wanstrath" />
+					<img width="280" height="280" src="img/defunkt.jpg" alt="Chris Wanstrath" />
 					<p>
 						<span class="fragment">Chris Wanstrath</span>
 						<br>
@@ -68,10 +66,10 @@
 					</p>
 				</section>
 				<section>
-					<img class="plain" src="https://octodex.github.com/images/original.png" alt="GitHub" height="512" width="512" />
+					<img class="plain" src="img/octocat.png" alt="GitHub" height="512" width="512" />
 				</section>
 				<section>
-					<img src="http://img02.deviantart.net/7178/i/2011/029/8/3/emacs_user_at_work_by_earlcolour-d38aj2x.jpg" alt="emacs" />
+					<img src="img/emacs-octopus.jpg" alt="emacs" />
 				</section>
 				<section data-markdown>
 					<script type="text/template">
@@ -104,13 +102,13 @@
 					<img class="plain" src="img/atom.png" alt="Atom" height="512" width="512">
 				</section>
 				<section>
-					<img class="plain" src="https://atom.io/assets/screenshot-main-f609d95c29e5190787970f8c83762fcb.png" alt="Atom Screenshot" />
+					<img class="plain" src="img/atom-screen.png" alt="Atom Screenshot" />
 				</section>
 				<section>
 					<h3>A hackable text-editor for the 21st century.</h3>
 					<ul>
 						<li class="fragment">Open-source</li>
-						<li class="fragment">Multiplataforma</li>
+						<li class="fragment">Cross-platform</li>
 						<li class="fragment">Modular</li>
 					</ul>
 				</section>
@@ -122,6 +120,30 @@
 			<section>
 				<section>
 					<img class="plain" src="img/electron.png" alt="Electron" height="512" width="512">
+				</section>
+				<section>
+					<h3>Electron</h3>
+					<p class="fragment">
+						<span>...f.k.a. Atom Shell</span>
+					</p>
+					<p class="fragment">
+						One ~runtime~ to rule them all!
+					</p>
+				</section>
+				<section>
+					<img width="280" height="280" src="img/zcbenz.jpg" alt="Cheng Zhao" />
+					<p>
+						<span class="fragment">Cheng Zhao</span>
+						<br>
+						<a class="fragment" href="//github.com/zcbenz">@zcbenz</a>
+					</p>
+				</section>
+				<section>
+					<img class="plain" width="180" height="180" src="img/nw.png" alt="nw.js">
+					<h3 class="fragment">nw.js</h3>
+					<p class="fragment">
+						<span>...f.k.a. node-webkit</span>
+					</p>
 				</section>
 			</section>
 
@@ -416,10 +438,11 @@
 		// Full list of configuration options available at:
 		// https://github.com/hakimel/reveal.js#configuration
 		Reveal.initialize({
-			controls: true,
-			progress: true,
+			controls: false,
+			progress: false,
 			history: true,
 			center: true,
+			help: true,
 
 			transition: 'fade', // none/fade/slide/convex/concave/zoom
 
